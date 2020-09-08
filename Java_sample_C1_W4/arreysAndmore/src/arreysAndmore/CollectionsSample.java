@@ -8,12 +8,8 @@ import java.util.Vector;
 
 public class CollectionsSample {
 
-	/*
-	 * 
-	 * List are colletions of dataset List <data-type> list1= new ArrayList();
-	 * List<data-type> list2 = new LinkedList(); List <data-type> list3 = new
-	 * Vector(); List <data-type> list4 = new Stack();
-	 */
+	
+	
 
 	List<Integer> list1 = new ArrayList();
 	List<String> list2 = new LinkedList();
