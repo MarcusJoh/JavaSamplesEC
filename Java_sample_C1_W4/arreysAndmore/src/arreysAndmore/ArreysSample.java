@@ -35,8 +35,8 @@ public class ArreysSample {
 
 		System.out.println("change content" + x[6]);
 
-		// CollectionsSample.collectionRun();
-		HashSetsample.HashSetRun();
+		CollectionsSample.collectionRun();
+		// HashSetsample.HashSetRun();
 
 	}
 

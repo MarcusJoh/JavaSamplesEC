@@ -19,52 +19,48 @@ public class CollectionsSample {
 	List<String> list2 = new LinkedList();
 	List<Character> list3 = new Vector();
 	List<Double> list4 = new Stack();
-	
 
 	public static void collectionRun() {
-		
-		 System.out.println("ArrayList over here");
+
+		System.out.println("ArrayList over here");
+
 		ArrayList<String> wordList = new ArrayList<String>();
 
 		wordList.add("First");
 		wordList.add("Second");
 
-//        wordList.add("Anthony");
-//        wordList.add("Bart");
-//        wordList.add("Paul");
-//        wordList.add("John");
-//        wordList.add("Martin");
-//        wordList.add("Matt");
-//
-//        System.out.println("the number of entries " + wordList.size() );
-//
-//        System.out.println("first in the list " + wordList.get(0));
-//        System.out.println("third in the list " + wordList.get(2));
-//
-//      
-//
-//        if (wordList.contains("Bart")) {
-//            System.out.println("Bart is in the list");
-//        } else {
-//            System.out.println("Bart is not in list");
-//        }
-//        
+		wordList.add("Anthony");
+		wordList.add("Bart");
+		wordList.add("Paul");
+		wordList.add("John");
+		wordList.add("Martin");
+		wordList.add("Matt");
 
-//        int place = 0;
-//        System.out.println( wordList.get(place) );
-//        place++;
-//        System.out.println( wordList.get(place) );  
-//        place++;
-//        System.out.println( wordList.get(place) ); 
-//        place++;
-//        System.out.println( wordList.get(place) );  
-//        
+		System.out.println("the number of entries " + wordList.size());
+
+		System.out.println("first in the list " + wordList.get(0));
+		System.out.println("third in the list " + wordList.get(2));
+
+		if (wordList.contains("Bart")) {
+			System.out.println("Bart is in the list");
+		} else {
+			System.out.println("Bart is not in list");
+		}
+
+		int place = 0;
+		System.out.println(wordList.get(place));
+		place++;
+		System.out.println(wordList.get(place));
+		place++;
+		System.out.println(wordList.get(place));
+		place++;
+		System.out.println(wordList.get(place));
 
 		// for-each
 
-//        for (String word : wordList) {
-//            System.out.println( word );
-//        }
+		for (String word : wordList) {
+			System.out.println(word);
+		}
 
 		// print(wordList);
 
@@ -72,27 +68,34 @@ public class CollectionsSample {
 
 		// print(wordList);
 
-//		 ArrayList<Integer> numbers = new ArrayList<Integer>();
-//
-//		    numbers.add(4);
-//		    numbers.add(8);
-//
-//		    // tries to remove the number from the index 4, does not work as expected!
-//		    numbers.remove(4);
-//
-//		    // this removes the number 4 from the list
-//		    numbers.remove(Integer.valueOf(4));
-//		
-//		
-//		
-//		
-//		
-//	        ArrayList<Double> doubles = new ArrayList<Double>();
-//	        ArrayList<Character> characters = new ArrayList<Character>();
-//		
-//		
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
 
-		// ArrayList<Integer> numbers = addNumbersToList(3, 5, 2);
+		numbers.add(4);
+		numbers.add(8);
+
+		// tries to remove the number from the index 4, does not work as expected!
+		numbers.remove(4);
+
+		// this removes the number 4 from the list
+		numbers.remove(Integer.valueOf(4));
+
+		ArrayList<Double> doubles = new ArrayList<Double>();
+		ArrayList<Character> characters = new ArrayList<Character>();
+
+		ArrayList<Integer> numbersfromMethod = addNumbersToList(3, 5, 2);
+
+		// Generics aka declare everything
+		List<Integer> list1 = new ArrayList<Integer>();
+
+		list1.add(1000); // works fine
+
+		
+		//list1.add("marcus"); // compile time error;
+
+		List list2 = new ArrayList();
+
+		list2.add(1000);
+		list2.add("marcus"); // works but is not generic as all item in the collection are not the same
 
 	}
 
