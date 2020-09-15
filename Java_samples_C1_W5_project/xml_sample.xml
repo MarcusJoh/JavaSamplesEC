@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<boksamling>
+    <bok sprak="engelska">
+        <titel>XSLT Cookbook</titel>
+        <forfattare>Sal Mangano</forfattare>
+    </bok>
+    <bok sprak="svenska">
+        <titel>Skriv med XML</titel>
+        <forfattare>Åsa Blom</forfattare>
+   </bok>
+</boksamling>
