@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lesson2_1</string>
+    <string name="textView1" translatable="false">Här ska vi har alla strings</string>
+    <string name="textView2" translatable="false">ha flera layouts i varandra med Lin. layout</string>
+    <string name="btn1" translatable="false">Knappar har också strings</string>
+    <string-array name="spinContent">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>
