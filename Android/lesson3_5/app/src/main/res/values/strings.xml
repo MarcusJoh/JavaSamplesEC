@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lesson3_5</string>
+    <string name="edit_name">Name</string>
+    <string name="btn_send">Send</string>
+    <string name="edit_number">Phone</string>
+    <string name="edit_email">Email</string>
+</resources>

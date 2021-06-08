@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lesson3_4</string>
+    <string name="btn1">To Next</string>
+    <string name="btn2">go Back</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lesson3_1</string>
+    <string name="overflow_menu">menu</string>
+    <string name="overflow_icon">more..</string>
+</resources>
