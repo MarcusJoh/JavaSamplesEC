@@ -14,10 +14,15 @@
 - https://developer.android.com/guide/topics/text/copy-paste
 - https://developer.android.com/guide/components/activities/intro-activities
 
+**Dag 4**
 - Officiell doc: https://kotlinlang.org/docs/home.html
 - - https://play.kotlinlang.org/koans/overview - ett kul sätt att testa det 
 - Bra video från Traversy Media: https://www.youtube.com/watch?v=BBWyXo-3JGQ 
 - Om Coroutines: https://kotlinlang.org/docs/coroutines-overview.html 
 
-**Om Services**
-- https://developer.android.com/guide/components/services
+
+**Dag 5**
+- Om Services
+- - https://developer.android.com/guide/components/services
+- Om Notification
+- - https://developer.android.com/training/notify-user/build-notification
