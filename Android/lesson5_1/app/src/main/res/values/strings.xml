@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lesson5_1</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_stop">Stop</string>
+    <string name="service_status">off</string>
+</resources>
