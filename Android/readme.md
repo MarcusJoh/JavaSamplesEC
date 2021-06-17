@@ -26,3 +26,13 @@
 - - https://developer.android.com/guide/components/services
 - Om Notification
 - - https://developer.android.com/training/notify-user/build-notification
+
+**Dag 6**
+- Om SQLite
+- - https://developer.android.com/training/data-storage/sqlite
+- Om Room (För större mer complexa saker)
+- - https://developer.android.com/training/data-storage/room
+- Om RecyclerView
+- - https://developer.android.com/guide/topics/ui/layout/recyclerview
+- Om Alarms (AlarmManager)
+- - https://developer.android.com/training/scheduling/alarms
