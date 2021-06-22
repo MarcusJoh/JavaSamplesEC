@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37910421549",
+    "firebase_url": "https://vax2020-84912-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vax2020-84912",
+    "storage_bucket": "vax2020-84912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37910421549:android:aafd8c271039d3c68118a4",
+        "android_client_info": {
+          "package_name": "se.vax2020.lesson8_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37910421549-24ntjgjukvjop13tcm39ev6sc7matito.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF6re_yZr7u6_KpVgMmHoSxxfEJkRN9sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37910421549-24ntjgjukvjop13tcm39ev6sc7matito.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
